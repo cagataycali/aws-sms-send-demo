@@ -1,5 +1,4 @@
 var Sender = require('aws-sms-send');
-
 var config = {
   AWS: {
     accessKeyId: 'xxxxxxxxxx',
