@@ -1,0 +1,14 @@
+{
+  "name": "aws-sms-sender-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node start.js"
+  },
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sms-send": "^1.0.4"
+  }
+}
