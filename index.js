@@ -1,15 +1,23 @@
 var Sender = require('aws-sms-send');
 var config = {
   AWS: {
-    accessKeyId: 'xxxxxxxxxx',
-    secretAccessKey: 'xxxxxxxxxx',
-    region: 'xxxxxxxxxx',
+    accessKeyId: 'xxxxxxxxxxxxxxxxx',
+    secretAccessKey: 'xxxxxxxxxxxxxxxxx',
+    region: 'xxxxxxxxxxxxxxxxx',
   },
-  topicArn: 'xxxxxxxxxx',
+  topicArn: 'xxxxxxxxxxxxxxxxx',
 };
 var sender = new Sender(config);
 
-// sender.createSubscribe('+905054146201');
-// sender.sendSms('Sms body topic', 'Topic sms', true);
-// sender.sendSms('Sms body direct', 'Topic sms', false, '+905054146201');
-// TODO : @cagatay, please read doc.
+// sender.init('+905054146201');
+// sender.createSubscribe('+905054146201').then(function(response) {
+//   console.log(response);
+// })
+//
+// sender.sendSms('Sms body topic', 'Topic sms', true).then(function(response) {
+//   console.log(response);
+// });
+// sender.sendSms('Sms body direct', 'Topic sms', false, '+905054146201').then(function(response) {
+//   console.log(response);
+// })
+// TODO : All done!
