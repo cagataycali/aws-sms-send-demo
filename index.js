@@ -9,7 +9,6 @@ var config = {
 };
 var sender = new Sender(config);
 
-// sender.init('+905054146201');
 // sender.createSubscribe('+905054146201').then(function(response) {
 //   console.log(response);
 // })
