@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node start.js"
+    "test": "node start.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Çağatay Çalı",
   "license": "ISC",
   "dependencies": {
-    "aws-sms-send": "^1.0.4"
-  }
+    "aws-sms-send": "^1.0.4",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
 }
